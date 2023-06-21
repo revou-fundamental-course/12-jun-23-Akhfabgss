@@ -131,10 +131,16 @@ h2 {
 
 .button-clear {
     width: 150px;
+    height: 50px;
     background-color: #ffed00;
     font-weight: bold;
     color: black;
     border-radius: 10px;
+    border: none;
+}
+
+.button-clear:hover {
+    background-color: aqua;
 }
 
 /* --------------------- Footer -------------------------- */

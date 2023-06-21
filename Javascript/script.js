@@ -1,9 +1,9 @@
-const celciusInput = document.getElementById("celcius");
-const fahrenheitInput = document.getElementById("fahrenheit");
-const kelvinInput = document.getElementById("kelvin");
-const reamurInput = document.getElementById("reamur");
+let celciusInput = document.getElementById("celcius");
+let fahrenheitInput = document.getElementById("fahrenheit");
+let kelvinInput = document.getElementById("kelvin");
+let reamurInput = document.getElementById("reamur");
 
-const inputs = document.getElementsByClassName("input");
+let inputs = document.getElementsByClassName("input");
 
 for(let i=0; i<inputs.length; i++) {
     let input = inputs[i];
